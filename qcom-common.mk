@@ -21,5 +21,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.mdpcomp.logs=0 \
     persist.hwc.mdpcomp.enable=true
 
+PRODUCT_PACKAGES += \
+    android.hardware.media.omx@1.0-service
+
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.call_ring.multiple=0
